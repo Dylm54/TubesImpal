@@ -1,0 +1,20 @@
+#loginadm-body {
+  background: linear-gradient(225deg, #0c1626 0%, #00535e 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.loginadm-form {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1106px) {
+  .loginadm-illus {
+    display: none;
+  }
+  .loginadm-container {
+    gap: 0;
+  }
+}

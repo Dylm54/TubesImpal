@@ -1,0 +1,26 @@
+#landing-body {
+  background: linear-gradient(225deg, #341c47 0%, #00535e 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1106px) {
+  .landing-illus {
+    display: none;
+  }
+  .landing-container{
+    gap: 0;
+  }
+  .landing-caption{
+    width: 300px;
+  }
+  .landing-caption h2{
+    font-size: 33px;
+  }
+  .landing-caption h3{
+    font-size: 20px;
+    text-align: center;
+  }
+}
