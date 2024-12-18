@@ -19,7 +19,7 @@ const RegisterManager = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post("https://industrial-backend.azurewebsites.net/register", formData);
+      const response = await axios.post("https://beimpal.telkom.cloud/register", formData);
 
       // Handle the response as needed (e.g., show a success message)
       console.log("Response:", response.data);

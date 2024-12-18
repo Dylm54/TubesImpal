@@ -34,7 +34,7 @@ const LoginManager = () => {
     };
     // Mengirimkan data ke API menggunakan Axios
     axios
-      .post("https://industrial-backend.azurewebsites.net/login-manager", userData)
+      .post("https://beimpal.telkom.cloud/login-manager", userData)
       .then((response) => {
         const { token } = response.data; // Ambil token dari respons API
         

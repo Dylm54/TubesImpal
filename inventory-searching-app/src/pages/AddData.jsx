@@ -41,7 +41,7 @@ const AddData = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("https://industrial-backend.azurewebsites.net/update-product/add", formData, {
+      const response = await axios.post("https://beimpal.telkom.cloud/update-product/add", formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

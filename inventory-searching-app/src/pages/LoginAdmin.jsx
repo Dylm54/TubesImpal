@@ -31,7 +31,7 @@ const LoginAdmin = () => {
     };
     // Mengirimkan data ke API menggunakan Axios
     axios
-      .post("https://industrial-backend.azurewebsites.net/login-admin", userData)
+      .post("https://beimpal.telkom.cloud/login-admin", userData)
       .then((response) => {
         const { token } = response.data; // Ambil token dari respons API
 

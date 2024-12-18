@@ -27,7 +27,7 @@ const EditData = () => {
     // Anda bisa memasukkan logika GET di sini jika diperlukan, tetapi contoh ini tidak membutuhkannya
     const getDataById = async () => {
       try {
-        const response = await axios.get(`https://industrial-backend.azurewebsites.net/get-product/product?id=${idData}`, {
+        const response = await axios.get(`https://beimpal.telkom.cloud/get-product/product?id=${idData}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -69,7 +69,7 @@ const EditData = () => {
 
     try {
       // Mengirim data ke API untuk melakukan update
-      const response = await axios.put(`https://industrial-backend.azurewebsites.net/update-product/update?id=${idData}`, formData, {
+      const response = await axios.put(`https://beimpal.telkom.cloud/update-product/update?id=${idData}`, formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -95,7 +95,7 @@ const EditData = () => {
 
     try {
       // Mengirim data ke API untuk melakukan update
-      const response = await axios.delete(`https://industrial-backend.azurewebsites.net/update-product/delete?id=${idData}`, {
+      const response = await axios.delete(`https://beimpal.telkom.cloud/update-product/delete?id=${idData}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
