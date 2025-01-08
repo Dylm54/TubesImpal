@@ -24,7 +24,6 @@ const EditData = () => {
 
   useEffect(() => {
     // Mengambil data dari API untuk id yang sesuai
-    // Anda bisa memasukkan logika GET di sini jika diperlukan, tetapi contoh ini tidak membutuhkannya
     const getDataById = async () => {
       try {
         const response = await axios.get(`https://beimpal.telkom.cloud/get-product/product?id=${idData}`, {
